@@ -3,100 +3,167 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Christmas Coloring & Activity Book Prompts Pack — Songlap</title>
+<title>Christmas Coloring &amp; Activity Book Prompts Pack — Songlap</title>
 <style>
-  *{box-sizing:border-box} body{margin:0;font-family:'Segoe UI',Arial,sans-serif;color:#232323;background:#fdfbf7;line-height:1.6}
-  .wrap{max-width:820px;margin:0 auto;padding:0 20px}
-  header{padding:56px 0 8px;text-align:center}
-  .eyebrow{color:#b02a2a;font-weight:700;letter-spacing:2px;font-size:13px;text-transform:uppercase}
-  h1{font-size:40px;line-height:1.2;margin:14px 0 10px}
-  .sub{font-size:19px;color:#444;max-width:640px;margin:0 auto}
-  section{padding:26px 0}
-  h2{font-size:26px;margin:0 0 12px}
-  ul{padding-left:20px} li{margin:7px 0}
-  .card{background:#fff;border:1px solid #eadfce;border-radius:12px;padding:22px 24px;box-shadow:0 2px 10px rgba(0,0,0,.04)}
-  .price{text-align:center;padding:30px 0}
-  .was{color:#888;text-decoration:line-through;font-size:20px}
-  .now{font-size:44px;font-weight:800;color:#b02a2a}
-  .btn{display:inline-block;background:#b02a2a;color:#fff;font-size:20px;font-weight:700;padding:16px 42px;border-radius:10px;text-decoration:none;margin-top:14px}
-  .btn:hover{background:#8f1f1f}
-  .guarantee{background:#eef7ee;border:1px solid #cfe3cf}
-  footer{padding:26px 0 44px;text-align:center;color:#777;font-size:14px}
-  footer a{color:#0b5ed7}
+  * { box-sizing: border-box; }
+  body { margin:0; font-family: Georgia, 'Times New Roman', serif; background:#0c1a12; color:#eee9dc; line-height:1.65; }
+  .banner { background:repeating-linear-gradient(45deg,#b3202c 0 18px,#f4f1e6 18px 36px); color:#0c1a12; text-align:center; font-family: Arial, sans-serif; font-weight:bold; font-size:14px; padding:9px 12px; letter-spacing:.4px; }
+  .banner span { background:rgba(244,241,230,.92); padding:2px 10px; border-radius:4px; }
+  .wrap { max-width:760px; margin:0 auto; padding:28px 20px 50px; text-align:center; }
+  .pill { display:inline-block; border:1.5px solid #e8b33c; color:#e8b33c; border-radius:999px; padding:5px 16px; font-family:Arial,sans-serif; font-size:12.5px; font-weight:bold; letter-spacing:1.6px; margin:14px 0 18px; }
+  h1 { font-size:40px; line-height:1.2; margin:6px 0 14px; color:#fff; }
+  h1 .gold { color:#e8b33c; } h1 .red { color:#ff6b74; }
+  .sub { color:#c3cfc0; font-size:18.5px; max-width:640px; margin:0 auto 26px; }
+  h2 { color:#fff; font-size:27px; margin:44px 0 14px; }
+  p, li { font-size:17px; }
+  .cover { width:300px; max-width:82vw; margin:8px auto 26px; background:linear-gradient(150deg,#7d1f28,#0c1a12 75%); border:2px solid #e8b33c; border-radius:10px; padding:34px 22px 28px; box-shadow:0 14px 34px rgba(0,0,0,.5); }
+  .cover .ct { font-size:25px; font-weight:bold; color:#fff; line-height:1.3; }
+  .cover .cs { color:#e8b33c; font-family:Arial,sans-serif; font-size:12.5px; letter-spacing:2px; margin-top:14px; }
+  .cover .cb { font-size:52px; margin-bottom:12px; }
+  .buybox { background:#122619; border:1px solid #2c5c3a; border-radius:12px; padding:22px 18px; max-width:520px; margin:0 auto; }
+  .price-line { font-family:Arial,sans-serif; font-size:15px; color:#c3cfc0; }
+  .price-line s { color:#8fa08e; }
+  .price-big { font-size:34px; color:#e8b33c; font-weight:bold; }
+  .cta { display:block; background:#c22733; color:#fff; font-family:Arial,sans-serif; font-weight:bold; font-size:19px; text-decoration:none; border-radius:999px; padding:15px 22px; margin:14px auto 10px; max-width:430px; border:1.5px solid #e8b33c; }
+  .cta:hover { background:#d93644; }
+  .micro { font-family:Arial,sans-serif; font-size:13px; color:#9db09c; }
+  .trust { margin:16px auto 4px; color:#d8e2d2; font-family:Arial,sans-serif; font-size:14.5px; }
+  .left { text-align:left; max-width:640px; margin:0 auto; }
+  .pain li, .inside li { margin:7px 0; }
+  .sample { background:#0f2417; border-left:4px solid #e8b33c; border-radius:6px; padding:14px 16px; margin:12px auto; max-width:640px; text-align:left; font-size:15.5px; }
+  .sample .tag { font-family:Arial,sans-serif; font-size:12px; letter-spacing:1.4px; color:#e8b33c; font-weight:bold; display:block; margin-bottom:6px; }
+  .steps { display:flex; gap:12px; flex-wrap:wrap; justify-content:center; margin-top:8px; }
+  .step { background:#122619; border:1px solid #2c5c3a; border-radius:10px; padding:16px; width:215px; }
+  .step .n { font-size:24px; }
+  .cards { display:flex; gap:12px; flex-wrap:wrap; justify-content:center; }
+  .card { background:#122619; border:1px solid #2c5c3a; border-radius:10px; padding:16px; width:300px; text-align:left; }
+  .guarantee { background:#14301d; border:1.5px solid #3f9e58; border-radius:12px; padding:22px; max-width:640px; margin:40px auto 0; }
+  details { background:#122619; border:1px solid #2c5c3a; border-radius:8px; padding:13px 16px; margin:9px auto; max-width:640px; text-align:left; }
+  summary { cursor:pointer; font-weight:bold; color:#fff; font-size:16.5px; }
+  .pricecard { background:#122619; border:2px solid #e8b33c; border-radius:14px; padding:28px 22px; max-width:520px; margin:26px auto 0; }
+  .pricecard ul { text-align:left; display:inline-block; margin:10px auto; }
+  .final { margin-top:44px; }
+  .ps { max-width:640px; margin:34px auto 0; text-align:left; color:#c3cfc0; }
+  .fineprint { max-width:640px; margin:36px auto 0; text-align:left; font-size:13.5px; color:#8fa08e; }
+  footer { border-top:1px solid #24402c; margin-top:44px; padding-top:20px; font-family:Arial,sans-serif; font-size:13.5px; color:#9db09c; }
+  footer a { color:#e8b33c; }
+  /* VIDEO SLOT: when the walkthrough video is published, paste the YouTube embed iframe in the .video-slot div below. */
+  .video-slot { max-width:640px; margin:0 auto; }
 </style>
 </head>
 <body>
-<header class="wrap">
-  <div class="eyebrow">Seasonal — Ready for the Christmas Rush</div>
-  <h1>Christmas Coloring &amp; Activity Books, Created with AI Prompts</h1>
-  <p class="sub">200+ festive, copy-paste prompts for coloring pages and kids' activity pages you can publish on Amazon KDP while the season is on.</p>
-</header>
+<div class="banner"><span>🎄 CHRISTMAS SEASON SPECIAL — JUST $12 (REGULAR $27) · ONE-TIME PAYMENT 🎄</span></div>
+<div class="wrap">
 
-<section class="wrap">
+  <div class="pill">ATTENTION: KDP PUBLISHERS, ETSY SELLERS &amp; CHRISTMAS PRODUCT CREATORS</div>
+  <h1><span class="red">Christmas</span> Coloring &amp; Activity Book <span class="gold">Prompts Pack</span></h1>
+  <p class="sub">200 copy-paste AI prompts that turn one simple paste into ready-to-colour Christmas pages — Santa, reindeer, snowmen, nativity scenes and more. The Christmas selling season is short: your book could be live this week.</p>
+
+  <div class="cover">
+    <div class="cb">🎅</div>
+    <div class="ct">Christmas Coloring &amp; Activity Book Prompts Pack</div>
+    <div class="cs">SONGLAP · 200 PROMPTS + KDP CHECKLIST</div>
+  </div>
+
+  <div class="buybox">
+    <div class="price-line">Regular price: <s>$27</s></div>
+    <div class="price-big">Today: $12</div>
+    <!-- BUY_LINK -->
+    <a class="cta" href="https://warriorplus.com/o2/buy/yxff5z/ppvcqy/jfpskd">Get Instant Access — $12</a>
+    <div class="micro">Secure checkout through WarriorPlus · One-time payment · Instant download</div>
+  </div>
+  <div class="trust">🔒 Secure checkout &nbsp;•&nbsp; 14-day money-back guarantee &nbsp;•&nbsp; Instant download</div>
+
   <h2>Sound familiar?</h2>
-  <p>Every year, Christmas coloring and activity books sell in the holiday rush — but designing pages by hand takes weeks, and hiring illustrators costs more than most beginners can spend. By the time a book is ready, the season is over.</p>
-  <p>This pack gives you the prompts that do the creative heavy lifting: paste one into a free AI image tool, get a clean coloring or activity page, format it, and publish.</p>
-</section>
+  <div class="left">
+    <ul class="pain">
+      <li>Christmas is the biggest buying season of the year — and coloring books are gift favourites.</li>
+      <li>But drawing 50+ pages yourself, or paying an illustrator, takes the whole season.</li>
+      <li>Generic AI images come out with gray shading and messy lines that won't print as coloring pages.</li>
+      <li>By the time a book is ready the old way, Christmas is already over.</li>
+    </ul>
+    <p>Every prompt in this pack already carries the exact style words that make AI tools produce clean, bold, print-ready line art. Paste, generate, publish.</p>
+  </div>
 
-<section class="wrap">
-  <div class="card">
-    <h2>What you get inside</h2>
-    <ul>
-      <li><strong>200+ Christmas prompts</strong> — Santa, reindeer, snowmen, winter scenes, nativity-friendly art and more</li>
-      <li><strong>Coloring page prompts</strong> — bold lines, no shading, KDP-ready style built into every prompt</li>
-      <li><strong>Kids' activity prompts</strong> — mazes, word searches, dot-to-dot and spot-the-difference pages</li>
-      <li><strong>Bonus art prompts</strong> — greeting-card and gift-tag designs you can also sell on Etsy</li>
-      <li><strong>Quick-publish checklist</strong> — the short version of KDP setup, made for getting a book live fast, in season</li>
-      <li>Works with free AI tools — no design skills and no paid software needed</li>
+  <!-- VIDEO SLOT: embed the product walkthrough YouTube iframe here when published -->
+  <div class="video-slot"></div>
+
+  <h2>What's inside</h2>
+  <div class="left">
+    <ul class="inside">
+      <li><strong>200 prompts in 6 parts:</strong> Santa &amp; Friends · Christmas Animals · Nativity &amp; Angels · Winter Scenes &amp; Food · Detailed Pages for Adults · Activity Pages (mazes, word games, spot-the-difference)</li>
+      <li><strong>How-to guide</strong> — the exact settings and style words for clean line art, every time</li>
+      <li><strong>KDP quick-publish checklist</strong> — sizes, bleed, blank reverse pages, upload steps</li>
+      <li>Works with free AI image tools (Leonardo, Ideogram, Bing Image Creator and similar)</li>
     </ul>
   </div>
-</section>
 
-<section class="wrap">
-  <h2>Who this is for</h2>
-  <ul>
-    <li>KDP beginners who want a seasonal book out before the Christmas rush peaks</li>
-    <li>Sellers who already publish coloring or activity books and want festive titles fast</li>
-    <li>Anyone who wants a low-cost digital product of their own this season</li>
-  </ul>
-</section>
+  <h2>See it in action</h2>
+  <p class="sub" style="margin-bottom:6px;">Real prompts from inside the pack:</p>
+  <div class="sample"><span class="tag">PROMPT #1 — SANTA &amp; FRIENDS</span>“black and white line art of Santa Claus waving hello, bold clean outlines, no shading, no gray, white background, coloring book page for kids”</div>
+  <div class="sample"><span class="tag">PROMPT #7 — SANTA &amp; FRIENDS</span>“black and white line art of a happy elf wrapping a present with ribbon, bold clean outlines, no shading, coloring book page”</div>
+  <div class="sample"><span class="tag">PROMPT #16 — WINTER FAVOURITES</span>“black and white line art of a cheerful snowman wearing a top hat and scarf holding a broom, bold outlines, no shading, coloring page”</div>
+  <p class="micro">…plus 197 more — reindeer, nativity scenes, gingerbread houses, mandalas and activity pages.</p>
 
-<section class="wrap">
   <h2>How it works</h2>
-  <ul>
-    <li><strong>Step 1:</strong> Pick a prompt and paste it into a free AI image tool</li>
-    <li><strong>Step 2:</strong> Place the pages into the included size/format guidance</li>
-    <li><strong>Step 3:</strong> Upload to KDP using the quick-publish checklist</li>
-  </ul>
-</section>
-
-<section class="wrap">
-  <div class="card guarantee">
-    <h2>14-day money-back guarantee</h2>
-    <p>Go through the pack and try the prompts. If you feel it is not for you, email us within 14 days of purchase for a full refund, processed through WarriorPlus. No hard feelings.</p>
+  <div class="steps">
+    <div class="step"><div class="n">1️⃣</div><strong>Paste a prompt</strong><br>Into a free AI image tool of your choice.</div>
+    <div class="step"><div class="n">2️⃣</div><strong>Build your pages</strong><br>One page per sheet, blank page behind each — Canva free works well.</div>
+    <div class="step"><div class="n">3️⃣</div><strong>Publish on KDP</strong><br>Follow the quick-publish checklist at the end of the pack.</div>
   </div>
-</section>
 
-<section class="wrap">
-  <h2>Questions people ask</h2>
-  <p><strong>Do I need paid AI tools?</strong> No. The prompts are written for popular free AI image generators.</p>
-  <p><strong>Can I sell the books I make?</strong> Yes — the prompts are for creating your own books and products to sell on KDP, Etsy and similar platforms.</p>
-  <p><strong>Is this a physical product?</strong> No, it is an instant digital download (PDF), delivered through WarriorPlus right after checkout.</p>
-  <p><strong>I'm a complete beginner. Is this for me?</strong> Yes — the quick-publish checklist assumes no prior KDP experience.</p>
-</section>
+  <h2>Who this is for</h2>
+  <div class="cards">
+    <div class="card">✅ <strong>KDP publishers</strong> who want a Christmas title live while the season is still open</div>
+    <div class="card">✅ <strong>Etsy sellers</strong> adding printable coloring pages to their shops</div>
+    <div class="card">✅ <strong>Complete beginners</strong> publishing a first coloring book with free tools</div>
+    <div class="card">🚫 <strong>Not for you</strong> if you're reading this in January — this pack is built for the Christmas season</div>
+  </div>
 
-<section class="wrap price">
-  <div class="was">Regular price: $27</div>
-  <div class="now">Today: $12</div>
-  <br>
-  <!-- BUY_LINK: replace href with this offer's WarriorPlus buy URL once the offer is created -->
-  <a class="btn" href="#">Get Instant Access</a>
-  <p style="color:#666;font-size:14px">Secure checkout through WarriorPlus · Instant delivery</p>
-  <p style="color:#666;font-size:13px;max-width:640px;margin:14px auto 0">Disclaimer: This product is sold through WarriorPlus. WarriorPlus does not endorse, sponsor, or guarantee this product or any claims made about it. Any results mentioned are examples only and are not typical or guaranteed. Your results depend on your own effort and experience.</p>
-</section>
+  <div class="guarantee">
+    <h2 style="margin-top:0;">🛡️ 14-Day Money-Back Guarantee</h2>
+    <p>Try the prompts and the checklist. If you feel the pack is not for you, email us within 14 days of purchase for a full refund, processed through WarriorPlus.</p>
+  </div>
 
-<footer class="wrap">
-  <p>© 2026 Songlap · <a href="../privacy-policy.html">Privacy Policy</a> · Questions? Contact: klankhan451@gmail.com</p>
-</footer>
+  <h2>Questions, answered</h2>
+  <details><summary>Which AI tools do the prompts work with?</summary><p>Free image tools such as Leonardo AI, Ideogram and Microsoft Designer / Bing Image Creator — the pack explains the settings.</p></details>
+  <details><summary>Can I sell the books I create?</summary><p>Yes — use the prompts to create your own books and products to sell on KDP, Etsy and similar platforms.</p></details>
+  <details><summary>Do I need to draw anything?</summary><p>No. The AI generates the line art; the guide shows how to assemble and publish it.</p></details>
+  <details><summary>How do I receive the product?</summary><p>Instantly — a digital download delivered through WarriorPlus after checkout.</p></details>
+  <details><summary>What if it doesn't work for me?</summary><p>You are covered by the 14-day money-back guarantee above — just email us.</p></details>
+
+  <div class="pricecard">
+    <div class="price-line">Everything you get today:</div>
+    <ul>
+      <li>200 Christmas coloring &amp; activity prompts in 6 parts</li>
+      <li>How-to guide for clean, print-ready line art</li>
+      <li>KDP quick-publish checklist</li>
+      <li>Commercial use for the books you create</li>
+      <li>14-day money-back guarantee</li>
+    </ul>
+    <div class="price-line">Regular price: <s>$27</s></div>
+    <div class="price-big">$12</div>
+    <!-- BUY_LINK -->
+    <a class="cta" href="https://warriorplus.com/o2/buy/yxff5z/ppvcqy/jfpskd">Get Instant Access — $12</a>
+    <div class="micro">One-time payment · No subscription · Instant access</div>
+  </div>
+
+  <div class="final">
+    <h2>Christmas doesn't wait — neither should your book</h2>
+    <p class="sub">200 prompts. One evening of pasting. A book live for the season.</p>
+    <!-- BUY_LINK -->
+    <a class="cta" href="https://warriorplus.com/o2/buy/yxff5z/ppvcqy/jfpskd">Get Instant Access — $12</a>
+    <div class="micro">Secure checkout through WarriorPlus · Instant delivery</div>
+  </div>
+
+  <p class="ps"><strong>P.S.</strong> Nobody buys a Christmas coloring book on December 27th. The sellers who win the season are the ones whose books are already live when the searching starts — this pack is the fastest honest way to be one of them.</p>
+
+  <p class="fineprint">Disclaimer: This product is sold through WarriorPlus. WarriorPlus does not endorse, sponsor, or guarantee this product or any claims made about it. Any results mentioned are examples only and are not typical or guaranteed. Your results depend on your own effort and experience.</p>
+
+  <footer>
+    <strong>Songlap</strong> · Support: klankhan451@gmail.com<br>
+    <a href="privacy-policy.html">Privacy Policy</a> · © 2026 Songlap. All rights reserved.
+  </footer>
+</div>
 </body>
 </html>
